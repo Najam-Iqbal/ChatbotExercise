@@ -11,7 +11,7 @@ llm = HuggingFaceHub(repo_id=repo_id, huggingfacehub_api_token=hf_token, model_k
 
 # Streamlit interface
 st.title("Chat with GPT-2")
-st.write("This chatbot is powered by a GPT-2 model hosted on Hugging Face.")
+st.write("GPT-2 in action")
 
 user_input = st.text_input("You:", "Type your message here...")
 
